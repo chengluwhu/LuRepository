@@ -1,0 +1,9 @@
+there are mainly two parts in these codes, namely:
+(1) Extracting feautre points
+     In this part, firstly, we must extracte feature points containing valley points, ridge points , saddl points and mountain tops by importing original contour lines and the boundary of contours data.
+    Secondly, we should use DCE(Discrete Curve Evolution) algorithm  to  filter feature points for well extracting feature lines by importing extracted feautre points in the first step and original contour lines.
+    In the extracted results, the valley points were marked by -1, the ridge points were marked by 1, the saddle points were marked by 2 and the mountain tops were marked by 0.
+
+(2)Extracting feature lines
+     In this part, we extracted terrain feature lines by importing filtered feautre points and original contour lines. In the extracted results, the main valley lines  were marked by -1,  the first level branch valley lines were marked by -2, the second level branch valley lines were marked by -3, the minor valley lines were marked by -4, the mian ridge lines were marked by 1, the first level branch ridge lines were marked by 2 and the minor ridge lines were marked by 4 in the ¡°Code¡± property .
+    After extracting, we can classfiy  the extraction terrain feature lines by using the ArcGIS software.

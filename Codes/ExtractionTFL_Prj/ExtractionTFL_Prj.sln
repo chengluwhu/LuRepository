@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractionTFL_Prj", "ExtractionTFL_Prj\ExtractionTFL_Prj.csproj", "{ABDF1ECF-BCBF-44E6-9F7F-F4A3B7B9F766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractFeaturePts", "ExtractFeaturePts\ExtractFeaturePts.csproj", "{CEF53F69-2484-4B0E-9FD4-338D6EDD70DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractTerrainLines", "ExtractTerrainLines\ExtractTerrainLines.csproj", "{B4501E30-6E3C-4746-B8AB-BFB3F761DC92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDF1ECF-BCBF-44E6-9F7F-F4A3B7B9F766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF1ECF-BCBF-44E6-9F7F-F4A3B7B9F766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF1ECF-BCBF-44E6-9F7F-F4A3B7B9F766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF1ECF-BCBF-44E6-9F7F-F4A3B7B9F766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF53F69-2484-4B0E-9FD4-338D6EDD70DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF53F69-2484-4B0E-9FD4-338D6EDD70DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF53F69-2484-4B0E-9FD4-338D6EDD70DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF53F69-2484-4B0E-9FD4-338D6EDD70DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4501E30-6E3C-4746-B8AB-BFB3F761DC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4501E30-6E3C-4746-B8AB-BFB3F761DC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4501E30-6E3C-4746-B8AB-BFB3F761DC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4501E30-6E3C-4746-B8AB-BFB3F761DC92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
